@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+
+body{
+    background-color: hsl(330, 68%, 75%);
+
+}
+.b{
+    color: hsl(24, 5%, 18%);
+}
+.b1{
+    color: hsl(24, 5%, 18%);
+}
+
+.card{
+    width: 41%;
+    max-height: auto;
+    background-color:hsl(0, 0%, 100%);
+    margin: 10% 30%;
+   border-radius: 6px;
+}
+
+.img{
+    width: 100%;
+    height:10%;
+   
+    
+}
+.img img{
+    width: 84%;
+    margin-left: 46px;
+    margin-top: 34px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.head h1{
+   
+    padding-left: 41px;
+    margin-bottom: 18px;
+    color: hsl(24, 5%, 18%);
+}
+
+.om p{
+    padding: 0 30px;
+    margin-bottom: 18px;
+}
+
+.bold{
+    margin-left: 81px;
+}
+.bold li{
+    padding: 5px;
+}
+.bold1{
+    margin-left: 65px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color:  hsl(332, 51%, 32%);
+}
+
+.ing{
+    margin-left: 17px;
+    padding: 10px;
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: hsl(14, 45%, 36%);
+
+}
+
+.ing1 li{
+    margin-left: 44px;
+    padding: 5px;
+}
+
+.table{
+    margin-left: 90px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.two{
+    margin: 10px 50px;
+    font-weight: bold;
+   color: hsl(14, 45%, 36%);
+   padding-right: 200px;
+}
+#tab{
+    padding: 20px;
+}
+hr{
+    border: 0;
+    background: #716e8d;
+    height: 1px;
+    margin:10px 64px;
+}
+
+
+@media (min-width:250px) and (max-width:550px){
+    .card{
+        width: 51%;
+    max-height: auto;
+    background-color:hsl(0, 0%, 100%);
+    margin: 10% 30%;
+   border-radius: 6px;
+        
+    }
+    img{
+        position: relative;
+        right:17%;
+        
+    }
+    .head h1{
+        font-size: 16px;
+        padding-left: 14px;
+    }
+
+    .om p{
+        font-size:10px ;
+        padding: 0 15px;
+    }
+
+    .bold1{
+        font-size: 12px;
+        margin-left: 15px;
+    }
+    .bold{
+        margin-left: 40px;
+        font-size: 10px;
+    }
+    .ing{
+        margin-left: 15px;
+        font-size:16px;
+    }
+
+    .ing1{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .table{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    #tab{
+        
+        font-size: 7px;
+    }
+    .two{
+      
+        margin-left: 92px;
+    }
+}
