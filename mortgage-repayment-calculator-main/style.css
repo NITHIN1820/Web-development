@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(202, 86%, 94%);
+}
+
+.card{
+    height: 30vw;
+    width: 60vw;
+    margin: auto;
+   margin-top: 10%;
+   
+}
+.hone{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cal{
+    width: 50%;
+    height: 100%;
+    margin: 20px;
+}
+.middle{
+    display: flex;
+    justify-content: space-around;
+}
+
+.con{
+    display: flex;
+}
+
+.right{
+    width: 50%;
+    height: 90%;
+    margin: 2%;
+    background-color: hsl(202, 55%, 16%);
+    border-bottom-left-radius: 20%;
+    
+  
+}
+.img{
+    position: relative;
+    left: 9%;
+    top: 11%;
+}
+
+
+img{
+    position: relative;
+    left: 18%;
+    width: 32%;
+    
+}
+
+.form-check{
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 15px;
+}
+
+.btn{
+    margin-left: 24%;
+    margin-top: 3%;
+    padding-left:10px;
+
+}
+
+.para{
+    color:rgb(118, 119, 125);
+    font-size: small;
+    margin-right: 7%;
+}
+
+.attribution{
+    margin: 1%;
+}
+
+.no{
+    color: white;
+    padding: 20px;
+}
+
+.paymentBox{
+    background-color: hsl(200, 50%, 7%);
+    height: 174px;
+    width: 280px;
+    margin-left: 10%;
+    margin-top: 6%;
+    border-top: 2px solid gold;
+    border-radius: 5%;
+}
+#heading5{
+    padding: 8px;
+    font-size: small;
+}
+#pay{
+    padding-left: 29%;
+    font-size: 39px;
+    color: goldenrod;
+}
+#term{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.paying{
+    padding-left: 19%;
+    font-size: 39px;
+    color: goldenrod;
+}
