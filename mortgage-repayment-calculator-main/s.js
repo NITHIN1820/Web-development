@@ -55,3 +55,6 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("right2").style.display = "block";
     });
 });
+
+
+ 
