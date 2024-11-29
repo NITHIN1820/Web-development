@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+  <title>Frontend Mentor | Contact form</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container bg-slate-300 md:p-20">
+    <form action="" method="get">
+    <div class="form bg-white m-5 rounded-lg  md:m-36 md:p-6">
+      <h1 class="heading text-2xl font-bold p-3 md:text-3xl">Contact us</h1>
+
+      <!-- names section -->
+      <div class="name block md:flex justify-between">
+        <div class="firstname flex flex-col  md:w-3/4 space-x-2">
+          <label class="ml-2" for="name">First Name:</label>
+          <input class="f1 p-2 border border-gray-500 rounded-sm w-11/12 m-2 md:w-full" type="text" placeholder="first name" name="name" required />
+        </div>
+
+        <div class="secondname flex flex-col md:w-3/4 space-x-2 md:ml-4">
+          <label class="ml-2" for="name">Last Name:</label>
+          <input class="f1 p-2 border border-gray-500 rounded-sm w-11/12 m-2 md:w-full" type="text" placeholder="Last name" name="name" required />
+        </div>
+      </div>
+
+      <!-- email section -->
+      <div class="mail">
+        <label class="ml-2" for="email">Email:</label>
+        <input type="email" name="email" placeholder="Enter Email addres"
+          class="p-2 border border-gray-500 rounded-sm w-11/12 m-2 md:w-full" required />
+      </div>
+
+      <!-- query section -->
+      <h4 class="">Query type:</h4>
+      <div class="query block md:flex justify-evenly">
+        <div class="flex items-center ps-4 border border-black rounded m-4 md:w-full">
+          <input id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-4 h-4" />
+          <label for="bordered-radio-1" class="w-full py-4 ms-2 text-sm font-medium text-gray-900">Genral
+            enquiry</label>
+        </div>
+        <div class="flex items-center ps-4 border border-black rounded m-4 md:w-full">
+          <input id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-4 h-4" />
+          <label for="bordered-radio-1" class="w-full py-4 ms-2 text-sm font-medium text-gray-900">Support
+            Request</label>
+        </div>
+
+      </div>
+
+<!-- 
+      message box -->
+<div class=" m-5">
+     
+<label for="message" class="block mb-2 text-sm font-medium text-gray-900 ">Your message</label>
+<textarea id="message" rows="4" class="block   p-2.5 w-full text-sm text-gray-900 rounded-lg border border-gray-500" placeholder="Write your thoughts here..."></textarea></div>
+
+<!-- check box -->
+ <div class="checkbx p-3">
+ <input type="checkbox" name="check" id="" required>
+ <label for="check">To submit this form, please consent to being contacted</label>
+</div>
+<!-- 
+   submitbtn -->
+    
+   <div class="btn m-2 mb-4 ">
+    <button type="submit" onclick="alert('Message sent..')" class="bg-green-600 hover:bg-green-800  w-full py-3 rounded-sm  text-white">submit</button>
+   </div>
+
+    </div>
+  </form>
+  </div>
+
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+</html>
+
+<!-- Contact Us
+
+  First Name
+  This field is required
+
+  Last Name
+  This field is required
+
+  Email Address
+  Please enter a valid email address
+  This field is required
+
+  Query Type
+  General Enquiry
+  Support Request
+  Please select a query type
+
+  Message
+  This field is required
+
+  I consent to being contacted by the team
+  To submit this form, please consent to being contacted
+
+  Submit
+
+  Message Sent!
+  Thanks for completing the form. We'll be in touch soon!
+   -->
