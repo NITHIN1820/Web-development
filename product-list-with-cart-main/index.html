@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Product list with cart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Young+Serif&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1 class="head text-4xl  font-bold font-Family text-amber-900 m-5">Desserts</h1>
+  <div class="container font-Family ">
+    <div class="part1flex flex-col md:grid grid-cols-3 md:w-2/3  ">
+      <div class="item ">
+
+
+        <div class="img p-6 ">
+          <img src="./assets/images/image-waffle-mobile.jpg" alt="" srcset="">
+
+
+          <div class="relative left-1/3 md:left-1/4 bottom-6">
+            <button
+              class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border rounded-lg border-gray-400  shadow">
+              <div class="flex justify-between">
+                <img src="assets/images/icon-add-to-cart.svg" alt="" srcset="">Add to cart
+              </div>
+            </button>
+          </div>
+          <div class="info">
+            <div class="category pl-2 text-slate-400">Waffle</div>
+            <div class="name pl-2">Waffle with Berries</div>
+            <div class="price pl-2 text-red">$6.50</div>
+          </div>
+
+
+        </div>
+
+
+        <!-- item-2 -->
+      </div>
+      <div class="item">
+
+
+        <div class="img p-6 ">
+          <img src="./assets/images/image-creme-brulee-mobile.jpg" alt="" srcset="">
+
+
+          <div class="relative left-1/3 bottom-6 md:left-1/4 md:bottom-6">
+            <button
+              class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border rounded-lg border-gray-400  shadow">
+              <div class="flex justify-between">
+                <img src="assets/images/icon-add-to-cart.svg" alt="" srcset="">Add to cart
+              </div>
+            </button>
+          </div>
+          <div class="info">
+            <div class="category pl-2 text-slate-400">Crème Brûlée</div>
+            <div class="name pl-2">Vanilla Bean Crème Brûlée</div>
+            <div class="price pl-2 text-red">$7.00</div>
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+      <div class="item">
+
+
+        <div class="img p-6 ">
+          <img src="./assets/images/image-macaron-mobile.jpg" alt="" srcset="">
+
+
+          <div class="relative left-1/3 bottom-6 md:left-1/4 md:bottom-6">
+            <button
+              class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border rounded-lg border-gray-400  shadow">
+              <div class="flex justify-between">
+                <img src="assets/images/icon-add-to-cart.svg" alt="" srcset="">Add to cart
+              </div>
+            </button>
+          </div>
+          <div class="info">
+            <div class="category pl-2 text-slate-400">Tiramisu</div>
+            <div class="name pl-2">Classic Tiramisu</div>
+            <div class="price pl-2 text-red">$6.50</div>
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+      <div class="item">
+
+
+        <div class="img p-6 ">
+          <img src="./assets/images/image-tiramisu-mobile.jpg" alt="" srcset="">
+
+
+          <div class="relative left-1/3 bottom-6 md:left-1/4 md:bottom-6">
+            <button
+              class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border rounded-lg border-gray-400  shadow">
+              <div class="flex justify-between">
+                <img src="assets/images/icon-add-to-cart.svg" alt="" srcset="">Add to cart
+              </div>
+            </button>
+          </div>
+          <div class="info">
+            <div class="category pl-2 text-slate-400">Baklava</div>
+            <div class="name pl-2">Pistachio Baklava</div>
+            <div class="price pl-2 text-red">$4.00</div>
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+      <div class="item">
+
+
+        <div class="img p-6 ">
+          <img src="./assets/images/image-baklava-mobile.jpg" alt="" srcset="">
+
+
+          <div class="relative left-1/3 bottom-6 md:left-1/4 md:bottom-6">
+            <button
+              class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border rounded-lg border-gray-400  shadow">
+              <div class="flex justify-between">
+                <img src="assets/images/icon-add-to-cart.svg" alt="" srcset="">Add to cart
+              </div>
+            </button>
+          </div>
+          <div class="info">
+            <div class="category pl-2 text-slate-400">Pie</div>
+            <div class="name pl-2">Lemon Meringue Pie</div>
+            <div class="price pl-2 text-red">$5.00</div>
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+      <div class="item">
+
+
+        <div class="img p-6 ">
+          <img src="./assets/images/image-meringue-mobile.jpg" alt="" srcset="">
+
+
+          <div class="relative left-1/3 bottom-6 md:left-1/4 md:bottom-6">
+            <button
+              class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border rounded-lg border-gray-400  shadow">
+              <div class="flex justify-between">
+                <img src="assets/images/icon-add-to-cart.svg" alt="" srcset="">Add to cart
+              </div>
+            </button>
+          </div>
+          <div class="info">
+            <div class="category pl-2 text-slate-400">Cake</div>
+            <div class="name pl-2">Red Velvet Cake</div>
+            <div class="price pl-2 text-red">$4.50</div>
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+      <!-- <div class="item">
+
+
+      <div class="img p-6 ">
+        <img src="./assets/images/image-cake-mobile.jpg"" alt="" srcset="">
+
+
+<div class="relative left-1/3 bottom-6">
+        <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border rounded-lg border-gray-400  shadow">
+          <div class="flex justify-between">
+          <img src="assets/images/icon-add-to-cart.svg" alt="" srcset="">Add to cart</div>
+        </button></div>
+        <div class="info">
+          <div class="category pl-2">Waffle</div> 
+          <div class="name pl-2">Waffle with Berries</div>
+           <div class="price pl-2">6.50</div></div>
+           
+     
+      </div> -->
+
+
+
+    </div>
+
+
+  </div>
+  <div class="part2 md:absolute md:right-0 top-20 m-5 ">
+    <div class="box bg-rose-100border rounded-md p-10">
+
+    <div class="quantity text-4xl text-red">Your Cart (0)</div>
+    <div class="image pl-28">
+      <img src="assets/images/illustration-empty-cart.svg" alt="" srcset="">
+    </div>
+    <div class="des text-2xl">Your added items will appear here</div>
+  </div>
+  </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+</html>
+
+<!-- Vanilla Bean Crème Brûlée
+Crème Brûlée
+7.00
+Add to Cart
+
+Macaron Mix of Five
+Macaron
+8.00
+Add to Cart
+
+Classic Tiramisu
+Tiramisu
+5.50
+Add to Cart
+
+Pistachio Baklava
+Baklava
+4.00
+Add to Cart
+
+Lemon Meringue Pie
+Pie
+5.00
+Add to Cart
+
+Red Velvet Cake
+Cake
+4.50
+Add to Cart
+
+Salted Caramel Brownie
+Brownie
+4.50
+Add to Cart
+
+Vanilla Panna Cotta
+Panna Cotta
+6.50
+Add to Cart -->
