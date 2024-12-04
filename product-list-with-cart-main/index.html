@@ -262,11 +262,48 @@
   <div class="part2 md:absolute md:right-0 top-20 m-5 ">
     <div class="box bg-rose-100border rounded-md p-10">
 
+
+     
+      <div class="hidden">
     <div class="quantity text-4xl text-red">Your Cart (0)</div>
     <div class="image pl-28">
       <img src="assets/images/illustration-empty-cart.svg" alt="" srcset="">
     </div>
-    <div class="des text-2xl">Your added items will appear here</div>
+    <div class="des text-2xl">Your added items will appear here</div></div>
+
+    <div class="block md:mr-36  w-full">
+      <div id="cart" class="bg-white p-4 rounded-lg shadow-md max-w-sm">
+        <h3 class="text-lg font-semibold mb-4">
+          Your Cart (<span id="cart-count" class="text-orange-600">0</span>)
+        </h3>
+        <div id="cart-items" class="space-y-3 max-h-64 overflow-y-auto">
+          <!-- Cart items will be dynamically inserted here -->
+        </div>
+         <div class="mt-4 border-t pt-4">
+          <div class="flex justify-between items-center mb-2">
+            <span class="font-medium text-gray-700">Order Total:</span>
+            <span class="font-bold text-gray-900">$<span id="order-total">0.00</span></span>
+          </div>
+          <p class="text-xs text-gray-500 mb-4">
+            This is a <span class="font-medium text-green-600">carbon-neutral delivery</span>
+          </p>
+          <button
+            id="confirm-order"
+            class="w-full bg-orange-500 text-white py-2 px-4 rounded-lg hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-2"
+          >
+            Confirm Order
+          </button>
+        </div>
+      </div> 
+      
+  
+  
+
+
+   
+      
+
+    </div>
   </div>
   </div>
   </div>
